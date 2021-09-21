@@ -1,2 +1,2 @@
 # Wake-Up-
-It's a-mazing. Ah.
+So basically. The program makes a maze using the resursive backtracking algorithm. Then you have to solve it. It then gives you a barcode. I'm using this since I have trouble waking up. With the app: Alarmy I will scan the barcode so that my alarm will turn off. I have to solve the maze first though. To avoid cheating, use a pyc file to avoid accessing the code. Is this overkill so that I can wake up? Maybe.

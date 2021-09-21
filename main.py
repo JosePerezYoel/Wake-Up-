@@ -4,6 +4,8 @@ from barcode.writer import ImageWriter
 from pygame.locals import *
 import random
 import os
+import time
+import sys
 
 number = '123456789123'
 
@@ -240,6 +242,14 @@ while running:
             BARCODE = pygame.image.load("code.png")
             WINDOW.fill(WHITE)
             WINDOW.blit(BARCODE, (396,76))
+            try:
+                os.remove('code.png')
+            except:
+                pass
+            
+            
+
+
         for col in grid:
             for cell in col:
                 if cell.collision_test(player):
@@ -284,4 +294,3 @@ while running:
 
 
 pygame.quit()
-
